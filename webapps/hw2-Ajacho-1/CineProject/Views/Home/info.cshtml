@@ -1,0 +1,89 @@
+@* @model IEnumerable<Show>  *@
+
+@{
+    ViewData["Title"] = "Information";
+}
+
+@model (int numShows, int numMovies, int numTvShows, double maxTMDBPopularity, string maxTMDBShow, int maxIMDBVotes, string maxIMDBShowName, int numGenres, List<Genre> genres,  int numDirectors, string directorName, List<Show> directorShowsList, List<Show> directorShowYears)
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css"
+        integrity="sha384-+0n0xVW2eSR5OomE6p0cr8AkwSXT6j/mj2XqDjli5Keh4km9BqVZxboF+eXzPn8r" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+</head>
+
+<div class="text-center">
+    <h1 class="display-4 infoPageTitle">General Information</h1>
+</div>
+
+<div class="card">
+
+    <div class="row">
+        <div class="col-sm">
+            <div class="card-header styleBackground"> <h6>How many shows are in the database? </h6></div>
+            <div class="card-body"><p>There are: @Model.numShows</p></div>
+        </div>
+        <div class="col-sm">
+            <div class="card-header styleBackground"><h6>How many of those are movies and how many are tv shows?</h6></div>
+            <div class="card-body">
+                <p>There are: @Model.numMovies Movies</p>
+                <p>There are: @Model.numTvShows TV Shows</p>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card-header styleBackground"><h6>Which show has the highest TMDB popularity?</h6></div>
+            <div class="card-body">
+                <p>@Model.maxTMDBShow with @Model.maxTMDBPopularity of TMDB popularity</p>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card-header styleBackground"><h6>Which show has the most IMDB votes</h6></div>
+            <div class="card-body"><p>The show is @Model.maxIMDBShowName with @Model.maxIMDBVotes of TMDB popularity</p></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col ">
+            <div class="card-header styleBackground"><h6>What genres are available?</h6></div>
+            <div class="card-body scrollInfo">
+                <p>There are @Model.numGenres genres available</p>
+                <ul>
+                    @foreach (var name in Model.genres)
+                    {
+                        <li>@name.GenreString</li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm scrollShows">
+            <div class="card-header styleBackground stickQuestion">
+                <h6>What director has the most shows in the database?</h6>
+                <p>@Model.directorName</p>
+                </div>
+            <div class="card-body scrollInfo">
+                <table>
+                    <thead class="setBackground">
+                        <tr>
+                            <th>Show Title</th>
+                            <th>Release Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var show in Model.directorShowsList)
+                        {
+                            <tr>
+                                <td>@show.Title</td>
+                                <td>@show.ReleaseYear</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</div>

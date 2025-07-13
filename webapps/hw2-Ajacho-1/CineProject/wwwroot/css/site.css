@@ -1,0 +1,104 @@
+html {
+  font-size: 14px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #f1e3e1;
+}
+
+.navbar{
+  background-color: #f1e3e1 !important;
+}
+
+.navBarStyle:hover, navbar:hover {
+  background-color: white !important;
+  color: #d8b2ad !important;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar, .mainFooter {
+  background-color: #d8b2ad !important;
+  color: black !important;
+}
+
+.infoLink {
+  color: #76504b;
+}
+
+
+h1 {
+  font-weight: bolder;
+
+}
+
+.introParagraph {
+  font-size:medium
+}
+
+
+.infoPageTitle{
+  font-weight: 900;
+  
+}
+
+.scrollGenres{
+  overflow-y: scroll;
+  height: 200px;
+}
+
+.scrollInfo{
+  overflow-y: scroll;
+  height: 400px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+thead th{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #d8b2ad94 !important;
+
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.styleBackground {
+  background-color: #d8b2ad94 !important;
+  font-weight: bolder;
+}
+
+.stickQuestion{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #d8b2ad94 !important;
+}
+
+.showYearContainer{
+  text-align: center;
+}
