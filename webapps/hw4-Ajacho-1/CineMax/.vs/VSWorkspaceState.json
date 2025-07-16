@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Properties",
+    "\\Services",
+    "\\Views",
+    "\\Views\\Home",
+    "\\wwwroot",
+    "\\wwwroot\\css",
+    "\\wwwroot\\js"
+  ],
+  "SelectedNode": "\\wwwroot\\js\\site.js",
+  "PreviewInSolutionExplorer": false
+}

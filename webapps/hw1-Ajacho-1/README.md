@@ -1,6 +1,6 @@
 # RandomTeamGenerator
 
-![Project Screenshot](project-thumbnail.png)
+![Project Screenshot](hw1-project-thumbnail.png)
 
 ## Description
 

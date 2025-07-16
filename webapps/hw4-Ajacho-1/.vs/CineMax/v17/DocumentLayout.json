@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B44FB726-2F02-4D35-B080-98B74E3492BD}|CineMax_Tests\\CineMax_Tests.csproj|c:\\users\\belen\\onedrive\\desktop\\fall2024\\hw4-ajacho-1\\cinemax_tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B44FB726-2F02-4D35-B080-98B74E3492BD}|CineMax_Tests\\CineMax_Tests.csproj|solutionrelative:cinemax_tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|c:\\users\\belen\\onedrive\\desktop\\fall2024\\hw4-ajacho-1\\cinemax\\services\\cineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|solutionrelative:cinemax\\services\\cineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|c:\\users\\belen\\onedrive\\desktop\\fall2024\\hw4-ajacho-1\\cinemax\\controllers\\apimoviesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|solutionrelative:cinemax\\controllers\\apimoviesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|c:\\users\\belen\\onedrive\\desktop\\fall2024\\hw4-ajacho-1\\cinemax\\services\\icineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|solutionrelative:cinemax\\services\\icineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|c:\\users\\belen\\onedrive\\desktop\\fall2024\\hw4-ajacho-1\\cinemax\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9C1D495E-BBD2-42C5-82F3-8E15743F1BAA}|CineMax\\CineMax.csproj|solutionrelative:cinemax\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CineMax\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CineMax\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-27T03:44:38.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICineService.cs",
+              "DocumentMoniker": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Services\\ICineService.cs",
+              "RelativeDocumentMoniker": "CineMax\\Services\\ICineService.cs",
+              "ToolTip": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Services\\ICineService.cs",
+              "RelativeToolTip": "CineMax\\Services\\ICineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:42:36.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CineService.cs",
+              "DocumentMoniker": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Services\\CineService.cs",
+              "RelativeDocumentMoniker": "CineMax\\Services\\CineService.cs",
+              "ToolTip": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Services\\CineService.cs",
+              "RelativeToolTip": "CineMax\\Services\\CineService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:42:18.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "APIMovieSearch.cs",
+              "DocumentMoniker": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Controllers\\APIMovieSearch.cs",
+              "RelativeDocumentMoniker": "CineMax\\Controllers\\APIMovieSearch.cs",
+              "ToolTip": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax\\Controllers\\APIMovieSearch.cs",
+              "RelativeToolTip": "CineMax\\Controllers\\APIMovieSearch.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:31:54.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax_Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "CineMax_Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL2024\\hw4-Ajacho-1\\CineMax_Tests\\UnitTest1.cs",
+              "RelativeToolTip": "CineMax_Tests\\UnitTest1.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:31:49.125Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

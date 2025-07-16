@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to CineMax</h1>
+    <input class="form-control" id="searchMovieInput" placeholder="Search a movie..." />
+    <button class="btn btn-ln btn-outline-primary" id="searchMovieButton">Search!</button>
+</div>
+
+<div class="container">
+    <div class="row" id="movieList"></div>
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" arial-labelledly="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Movie Details</h5>
+            </div>
+            <div class="modal-body" id="movieDetails">
+                something heres
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}
+
+
+
+

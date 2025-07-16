@@ -1,6 +1,6 @@
 # CinePro
 
-![CinePro screenshot](cine-pro.png)
+![CinePro screenshot](hw2-project-thumbnail.png)
 
 CineProject is a web application for exploring streaming media shows, including movies and TV series. It is built with ASP.NET Core MVC and uses Entity Framework Core for data access. The project features:
 
