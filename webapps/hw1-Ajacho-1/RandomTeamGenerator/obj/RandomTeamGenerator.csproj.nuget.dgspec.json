@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\belen\\OneDrive\\Desktop\\FALL 2024\\RandomTeamGenerator\\RandomTeamGenerator\\RandomTeamGenerator.csproj": {}
+    "C:\\Users\\belen\\OneDrive\\Desktop\\cs-coursework\\webapps\\hw1-Ajacho-1\\RandomTeamGenerator\\RandomTeamGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\belen\\OneDrive\\Desktop\\FALL 2024\\RandomTeamGenerator\\RandomTeamGenerator\\RandomTeamGenerator.csproj": {
+    "C:\\Users\\belen\\OneDrive\\Desktop\\cs-coursework\\webapps\\hw1-Ajacho-1\\RandomTeamGenerator\\RandomTeamGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL 2024\\RandomTeamGenerator\\RandomTeamGenerator\\RandomTeamGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\belen\\OneDrive\\Desktop\\cs-coursework\\webapps\\hw1-Ajacho-1\\RandomTeamGenerator\\RandomTeamGenerator.csproj",
         "projectName": "RandomTeamGenerator",
-        "projectPath": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL 2024\\RandomTeamGenerator\\RandomTeamGenerator\\RandomTeamGenerator.csproj",
+        "projectPath": "C:\\Users\\belen\\OneDrive\\Desktop\\cs-coursework\\webapps\\hw1-Ajacho-1\\RandomTeamGenerator\\RandomTeamGenerator.csproj",
         "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\belen\\OneDrive\\Desktop\\FALL 2024\\RandomTeamGenerator\\RandomTeamGenerator\\obj\\",
+        "outputPath": "C:\\Users\\belen\\OneDrive\\Desktop\\cs-coursework\\webapps\\hw1-Ajacho-1\\RandomTeamGenerator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
