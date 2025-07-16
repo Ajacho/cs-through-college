@@ -1,0 +1,77 @@
+html, body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar{
+  background-color: #435912 !important;
+}
+
+.navbar-brand, .nav-link{
+  color: white !important;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+
+h1, .team-heading{
+  color: #435912;
+  font-weight: bolder !important;
+}
+
+.btn, button {
+  background-color: #435912;
+}
+
+.btn:hover, button:hover {
+  background-color: white;
+  color: #435912 !important;
+  border: 2px solid #8abd32;
+}
+
+.img-container {
+  margin-bottom: 20px;
+  object-position: center;
+}
+
+.img-fluid {
+  max-height: 60vh; 
+  height: auto; 
+}
+
+textarea {
+  width: 20%;
+  height: 100px;
+  /* resize: both; */
+}
+
+button {
+  color: white;
+  border: 2px solid;
+}
+
+.team-heading{
+  font-size: larger;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bolder !important;
+}
+
+.card-body {
+  border: 2px solid #435912;
+  background-image: url('/images/bonsai004.png');
+
+}
+
